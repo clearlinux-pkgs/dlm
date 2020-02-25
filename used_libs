@@ -1,0 +1,9 @@
+libc.so.6
+libcfg.so.7
+libcmap.so.4
+libcpg.so.4
+libdl.so.2
+libpthread.so.0
+libquorum.so.5
+libsystemd.so.0
+libuuid.so.1
