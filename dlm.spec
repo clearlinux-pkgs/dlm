@@ -4,7 +4,7 @@
 #
 Name     : dlm
 Version  : 4.0.9
-Release  : 1
+Release  : 2
 URL      : https://pagure.io/dlm/archive/dlm-4.0.9/dlm-dlm-4.0.9.tar.gz
 Source0  : https://pagure.io/dlm/archive/dlm-4.0.9/dlm-dlm-4.0.9.tar.gz
 Summary  : The dlm library
@@ -91,20 +91,20 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582665357
+export SOURCE_DATE_EPOCH=1607059743
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
 export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 make  %{?_smp_mflags}
 
 
 %install
-export SOURCE_DATE_EPOCH=1582665357
+export SOURCE_DATE_EPOCH=1607059743
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/dlm
 cp %{_builddir}/dlm-dlm-4.0.9/README.license %{buildroot}/usr/share/package-licenses/dlm/2303030c0e7e6704043065164610e93cfb922139
