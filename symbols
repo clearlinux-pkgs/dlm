@@ -68,5 +68,7 @@ libdlmcontrol.so.3:dlmc_lockspace_nodes
 libdlmcontrol.so.3:dlmc_lockspaces
 libdlmcontrol.so.3:dlmc_node_info
 libdlmcontrol.so.3:dlmc_print_status
+libdlmcontrol.so.3:dlmc_reload_config
 libdlmcontrol.so.3:dlmc_run_check
 libdlmcontrol.so.3:dlmc_run_start
+libdlmcontrol.so.3:dlmc_set_config
